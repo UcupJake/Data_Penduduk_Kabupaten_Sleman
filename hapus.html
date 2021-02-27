@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Delete Data</title>
+        <script src="jquery-3.5.1.min.js"></script>
+        <script src="program.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+            body{background-color: powderblue;}
+
+            #identitas{
+                margin-left: 20px;
+            }
+            #judul{
+                text-align: center;
+            }
+            #menu{
+                margin-left: 20px;
+                font-size: large;
+            }
+            #pesan{
+                text-align: center;
+            }
+            #tombol{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="judul">
+            <h3>Menghapus Data Penduduk Kabupaten Sleman</h3>
+        </div>
+
+        <br>
+
+        <div id="menu">
+            <a href="index.html" target="#">Kembali ke Menu</a>
+        </div>
+
+        <br>
+
+        <div id="identitas">
+            <div id="table">
+                <form id="delete">ID <input type="text" value="" name="idr"></input></form>
+            </div>    
+        </div>
+
+        <br>
+
+        <div id="tombol">
+            <button onclick="del()">HAPUS</button>
+        </div>
+    </body>
+</html>
